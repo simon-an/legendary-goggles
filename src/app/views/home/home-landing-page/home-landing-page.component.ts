@@ -4,13 +4,12 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   selector: 'cool-safe-home-landing-page',
   templateUrl: './home-landing-page.component.html',
   styleUrls: ['./home-landing-page.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomeLandingPageComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
+    localStorage.setItem('safeId', '1');
   }
-
 }
