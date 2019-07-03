@@ -19,6 +19,7 @@ import {
 import { AddSafeItemDialogComponent } from './containers/add-safe-item-dialog/add-safe-item-dialog.component';
 import { SafeItemFormComponent } from './components/safe-item-form/safe-item-form.component';
 import { FormsModule } from '@angular/forms';
+import { ItemNameValidatorDirective } from './directives/item-name-validator.directive';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { FormsModule } from '@angular/forms';
     SafePageComponent,
     AddSafeItemDialogComponent,
     SafeItemFormComponent,
+    ItemNameValidatorDirective,
   ],
   imports: [
     CommonModule,
