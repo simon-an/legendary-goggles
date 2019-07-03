@@ -18,7 +18,7 @@ export class SafeItemFormComponent implements OnInit {
   result: EventEmitter<SafeItem> = new EventEmitter();
 
   model: SafeItem = {
-    name: 'Handy'
+    name: 'Handy',
   } as SafeItem;
 
   constructor() {}
