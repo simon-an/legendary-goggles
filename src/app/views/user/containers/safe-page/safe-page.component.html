@@ -1,1 +1,6 @@
-<p>safe-page works!</p>
+<mat-toolbar>
+  <button mat-mini-fab color="primary" (click)="openAddNewItemDialog()">
+    <mat-icon aria-label="add new Safe Items">add</mat-icon>
+  </button>
+</mat-toolbar>
+<cool-safe-item-list [items]="items$ | async"></cool-safe-item-list>
